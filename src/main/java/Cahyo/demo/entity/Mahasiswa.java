@@ -19,11 +19,11 @@ import lombok.Setter;
 public class Mahasiswa {
     @Id
     @Getter @Setter
-    private String nim;
+    public String nim;
     @Getter @Setter
-    private String nama;
+    public String nama;
     @Getter @Setter
-    private String jurusan;    
+    public String jurusan;    
     
     
 }
